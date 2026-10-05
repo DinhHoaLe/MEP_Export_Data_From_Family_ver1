@@ -1,0 +1,2649 @@
+[
+  {
+    "FileName": "M_Lavatory - Wall Mounted.rfa",
+    "FilePath": "F:\\Hoa Le\\1. Working\\Tools\\MEP_Export_Data_From_Family_ver1\\Export_Data_From_Family\\Test\\Plumbing Fixtures\\M_Lavatory - Wall Mounted.rfa",
+    "FileSizeMB": 0.516,
+    "Category": "Plumbing Fixtures",
+    "PlacementType": "WorkPlaneBased",
+    "TypeCount": 1,
+    "ParameterCount": 39,
+    "NestedFamilyCount": 3,
+    "ConnectorCount": 3,
+    "Parameters": [
+      {
+        "Name": "Type IFC Predefined Type",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:ifc-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Export Type to IFC As",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:ifc-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Default Elevation",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:constraints-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 2.8379265091863517,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "865.0"
+          }
+        ]
+      },
+      {
+        "Name": "WFU",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:number-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:mechanical-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 1.0,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "1.000000"
+          }
+        ]
+      },
+      {
+        "Name": "HWFU",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:number-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:mechanical-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 1.5,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "1.500000"
+          }
+        ]
+      },
+      {
+        "Name": "CWFU",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:number-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:mechanical-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 1.5,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "1.500000"
+          }
+        ]
+      },
+      {
+        "Name": "Flow Pressure",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pressure-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": true,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:pascals-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:pa-1.0.1",
+          "Accuracy": 0.1,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 16812.1584,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "55158.000000 Pa"
+          }
+        ]
+      },
+      {
+        "Name": "Vent Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Waste Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "CW Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "HW Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Sink Material",
+        "StorageType": "ElementId",
+        "DataTypeId": "autodesk.spec.aec:material-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:materials-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Faucet Material",
+        "StorageType": "ElementId",
+        "DataTypeId": "autodesk.spec.aec:material-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:materials-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Lavatory Width",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 1.5912073490813647,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "485.0"
+          }
+        ]
+      },
+      {
+        "Name": "Lavatory Length",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 1.1646981627296589,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "355.0"
+          }
+        ]
+      },
+      {
+        "Name": "Hot Water Radius",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.024606299212598423,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "7.5 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Hot Water Diameter",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Hot Water Radius * 2",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.049212598425196846,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "15.0 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Sanitary Radius",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.052493438320209973,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "16.0 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Sanitary Diameter",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Sanitary Radius * 2",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.10498687664041995,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "32.0 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Cold Water Radius",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.024606299212598423,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "7.5 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Cold Water Diameter",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Cold Water Radius * 2",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.049212598425196846,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "15.0 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Type Image",
+        "StorageType": "ElementId",
+        "DataTypeId": "autodesk.spec.reference:image-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Keynote",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Model",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Manufacturer",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Type Comments",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "URL",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec.string:url-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Description",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Assembly Code",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Cost",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.measurable:currency-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:currency-1.0.0",
+          "SymbolTypeId": "",
+          "Accuracy": 0.01,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Sanitary Connector Width",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Lavatory Width / 2 - 50 mm",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.6315616797900262,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "192.5"
+          }
+        ]
+      },
+      {
+        "Name": "Sanitary Connector Height",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.093503937007874016,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "28.5"
+          }
+        ]
+      },
+      {
+        "Name": "Half Lavatory Width",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Lavatory Width / 2",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.79560367454068237,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "242.5"
+          }
+        ]
+      },
+      {
+        "Name": "Faucet Length",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "100 mm * cos(30°)",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.28412906948308364,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "86.6"
+          }
+        ]
+      },
+      {
+        "Name": "Cross Length 2",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Lavatory Length - 50 mm - Cross Length 1",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.93270774895454467,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "284.3"
+          }
+        ]
+      },
+      {
+        "Name": "Cross Length 1",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "50 mm / sin(45°) - 50 mm",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.067948419024458057,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "20.7"
+          }
+        ]
+      },
+      {
+        "Name": "Connector Width 2",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Lavatory Width / 2 + 100 mm",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 1.1236876640419946,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "342.5"
+          }
+        ]
+      },
+      {
+        "Name": "Connector Width 1",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Lavatory Width / 2 - 100 mm",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.46751968503937,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "142.5"
+          }
+        ]
+      },
+      {
+        "Name": "Connector Height 1",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "485 mmx355 mm - Public",
+            "HasValue": true,
+            "DoubleValue": 0.32808398950131235,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "100.0"
+          }
+        ]
+      }
+    ],
+    "Checks": [
+      {
+        "Rule": "File Size",
+        "Status": "PASS",
+        "Message": "0.516 MB"
+      },
+      {
+        "Rule": "Parameter: A",
+        "Status": "FAIL",
+        "Message": "Parameter missing"
+      },
+      {
+        "Rule": "Parameter: B",
+        "Status": "FAIL",
+        "Message": "Parameter missing"
+      },
+      {
+        "Rule": "Parameter: Độ dày",
+        "Status": "FAIL",
+        "Message": "Parameter missing"
+      },
+      {
+        "Rule": "Nested Families",
+        "Status": "WARNING",
+        "Message": "3 nested families"
+      }
+    ],
+    "Status": "FAIL"
+  },
+  {
+    "FileName": "M_Urinal - Wall Hung.rfa",
+    "FilePath": "F:\\Hoa Le\\1. Working\\Tools\\MEP_Export_Data_From_Family_ver1\\Export_Data_From_Family\\Test\\Plumbing Fixtures\\M_Urinal - Wall Hung.rfa",
+    "FileSizeMB": 0.543,
+    "Category": "Plumbing Fixtures",
+    "PlacementType": "WorkPlaneBased",
+    "TypeCount": 1,
+    "ParameterCount": 31,
+    "NestedFamilyCount": 3,
+    "ConnectorCount": 2,
+    "Parameters": [
+      {
+        "Name": "Type IFC Predefined Type",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:ifc-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Export Type to IFC As",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:ifc-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Default Elevation",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:constraints-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 1.4107611548556431,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "430.0"
+          }
+        ]
+      },
+      {
+        "Name": "WFU",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:number-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:mechanical-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 4.0,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "4.000000"
+          }
+        ]
+      },
+      {
+        "Name": "HWFU",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:number-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:mechanical-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 0.0,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "0.000000"
+          }
+        ]
+      },
+      {
+        "Name": "CWFU",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:number-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:mechanical-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 5.0,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "5.000000"
+          }
+        ]
+      },
+      {
+        "Name": "Flow Pressure",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pressure-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": true,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:pascals-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:pa-1.0.1",
+          "Accuracy": 0.1,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 31522.720800000003,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "103421.000000 Pa"
+          }
+        ]
+      },
+      {
+        "Name": "Vent Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Waste Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "CW Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "HW Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Urinal Material",
+        "StorageType": "ElementId",
+        "DataTypeId": "autodesk.spec.aec:material-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:materials-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Faucet Material",
+        "StorageType": "ElementId",
+        "DataTypeId": "autodesk.spec.aec:material-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:materials-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Urinal Width",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 1.4763779527559056,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "450.0"
+          }
+        ]
+      },
+      {
+        "Name": "Urinal Length",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 1.45997375328084,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "445.0"
+          }
+        ]
+      },
+      {
+        "Name": "Urinal Height",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 2.1653543307086616,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "660.0"
+          }
+        ]
+      },
+      {
+        "Name": "Sanitary Radius",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 0.082020997375328086,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "25.0 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Sanitary Diameter",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Sanitary Radius * 2",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 0.16404199475065617,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "50.0 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Cold Water Radius",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 0.032808398950131233,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "10.0 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Cold Water Diameter",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Cold Water Radius * 2",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 0.065616797900262466,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "20.0 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Type Image",
+        "StorageType": "ElementId",
+        "DataTypeId": "autodesk.spec.reference:image-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Keynote",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Model",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Manufacturer",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Type Comments",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "URL",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec.string:url-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Description",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Assembly Code",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Cost",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.measurable:currency-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:currency-1.0.0",
+          "SymbolTypeId": "",
+          "Accuracy": 0.01,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Height1",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Urinal Height - 115 mm - 2 * 90 mm",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 1.1975065616797904,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "365.0"
+          }
+        ]
+      },
+      {
+        "Name": "Half Urinal Width",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-1.0.0",
+        "GroupTypeId": "",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Urinal Width / 2",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "20 mm Flush Valve",
+            "HasValue": true,
+            "DoubleValue": 0.73818897637795278,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "225.0"
+          }
+        ]
+      }
+    ],
+    "Checks": [
+      {
+        "Rule": "File Size",
+        "Status": "PASS",
+        "Message": "0.543 MB"
+      },
+      {
+        "Rule": "Parameter: A",
+        "Status": "FAIL",
+        "Message": "Parameter missing"
+      },
+      {
+        "Rule": "Parameter: B",
+        "Status": "FAIL",
+        "Message": "Parameter missing"
+      },
+      {
+        "Rule": "Parameter: Độ dày",
+        "Status": "FAIL",
+        "Message": "Parameter missing"
+      },
+      {
+        "Rule": "Nested Families",
+        "Status": "WARNING",
+        "Message": "3 nested families"
+      }
+    ],
+    "Status": "FAIL"
+  },
+  {
+    "FileName": "M_Water Closet - Flush Valve - Wall Mounted.rfa",
+    "FilePath": "F:\\Hoa Le\\1. Working\\Tools\\MEP_Export_Data_From_Family_ver1\\Export_Data_From_Family\\Test\\Plumbing Fixtures\\M_Water Closet - Flush Valve - Wall Mounted.rfa",
+    "FileSizeMB": 0.527,
+    "Category": "Plumbing Fixtures",
+    "PlacementType": "WorkPlaneBased",
+    "TypeCount": 1,
+    "ParameterCount": 27,
+    "NestedFamilyCount": 3,
+    "ConnectorCount": 2,
+    "Parameters": [
+      {
+        "Name": "Type IFC Predefined Type",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:ifc-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Export Type to IFC As",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:ifc-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Default Elevation",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:length-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:constraints-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": 1.4107611548556431,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "430.0"
+          }
+        ]
+      },
+      {
+        "Name": "WFU",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:number-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:mechanical-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": 4.0,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "4.000000"
+          }
+        ]
+      },
+      {
+        "Name": "HWFU",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:number-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:mechanical-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": 0.0,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "0.000000"
+          }
+        ]
+      },
+      {
+        "Name": "CWFU",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec:number-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:mechanical-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": 10.0,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "10.000000"
+          }
+        ]
+      },
+      {
+        "Name": "Flow Pressure",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pressure-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": true,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:pascals-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:pa-1.0.1",
+          "Accuracy": 0.1,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": 52538.071200000006,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "172369.000000 Pa"
+          }
+        ]
+      },
+      {
+        "Name": "Vent Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Waste Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "CW Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "HW Connection",
+        "StorageType": "Integer",
+        "DataTypeId": "autodesk.spec:spec.bool-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:plumbing-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Seat Material",
+        "StorageType": "ElementId",
+        "DataTypeId": "autodesk.spec.aec:material-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:materials-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Water Closet Material",
+        "StorageType": "ElementId",
+        "DataTypeId": "autodesk.spec.aec:material-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:materials-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Pipe Material",
+        "StorageType": "ElementId",
+        "DataTypeId": "autodesk.spec.aec:material-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:materials-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Sanitary Radius",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": 0.16404199475065617,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "50.0 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Sanitary Diameter",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Sanitary Radius * 2",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": 0.32808398950131235,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "100.0 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Cold Water Radius",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": 0.041010498687664043,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "12.5 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Cold Water Diameter",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.aec.piping:pipeSize-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:dimensions-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": "Cold Water Radius * 2",
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:millimeters-1.0.1",
+          "SymbolTypeId": "autodesk.unit.symbol:mm-1.0.1",
+          "Accuracy": 1.0,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": 0.082020997375328086,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": "25.0 mm"
+          }
+        ]
+      },
+      {
+        "Name": "Assembly Code",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": true,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": "",
+            "DisplayValue": ""
+          }
+        ]
+      },
+      {
+        "Name": "Type Image",
+        "StorageType": "ElementId",
+        "DataTypeId": "autodesk.spec.reference:image-1.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Keynote",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Model",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Manufacturer",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Type Comments",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "URL",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec.string:url-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Description",
+        "StorageType": "String",
+        "DataTypeId": "autodesk.spec:spec.string-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": null,
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      },
+      {
+        "Name": "Cost",
+        "StorageType": "Double",
+        "DataTypeId": "autodesk.spec.measurable:currency-2.0.0",
+        "GroupTypeId": "autodesk.parameter.group:identityData-1.0.0",
+        "SharedGuid": null,
+        "IsInstance": false,
+        "IsShared": false,
+        "Formula": null,
+        "Value": null,
+        "Format": {
+          "UnitTypeId": "autodesk.unit.unit:currency-1.0.0",
+          "SymbolTypeId": "",
+          "Accuracy": 0.01,
+          "RoundingMethod": "Nearest",
+          "UseDigitGrouping": false,
+          "UsePlusPrefix": false,
+          "SuppressSpaces": false,
+          "SuppressLeadingZeros": false,
+          "SuppressTrailingZeros": false
+        },
+        "TypeValues": [
+          {
+            "TypeName": "Public - 6.1 Lpf",
+            "HasValue": false,
+            "DoubleValue": null,
+            "IntegerValue": null,
+            "StringValue": null,
+            "DisplayValue": null
+          }
+        ]
+      }
+    ],
+    "Checks": [
+      {
+        "Rule": "File Size",
+        "Status": "PASS",
+        "Message": "0.527 MB"
+      },
+      {
+        "Rule": "Parameter: A",
+        "Status": "FAIL",
+        "Message": "Parameter missing"
+      },
+      {
+        "Rule": "Parameter: B",
+        "Status": "FAIL",
+        "Message": "Parameter missing"
+      },
+      {
+        "Rule": "Parameter: Độ dày",
+        "Status": "FAIL",
+        "Message": "Parameter missing"
+      },
+      {
+        "Rule": "Nested Families",
+        "Status": "WARNING",
+        "Message": "3 nested families"
+      }
+    ],
+    "Status": "FAIL"
+  }
+]
