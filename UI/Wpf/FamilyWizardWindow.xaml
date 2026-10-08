@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:shell="clr-namespace:System.Windows.Shell;assembly=PresentationFramework"
         Title="Family Data Studio" Width="1100" Height="790"
+        Icon="pack://application:,,,/Export_Data_From_Family;component/UI/Wpf/Assets/family-export-symbol.png"
         MinWidth="940" MinHeight="620" WindowStartupLocation="CenterOwner"
         WindowStyle="None" ResizeMode="CanResize" StateChanged="Window_StateChanged"
         Closing="Window_Closing" Background="#F5F2EE" FontFamily="Segoe UI" FontSize="13">
@@ -304,11 +305,8 @@
         <Grid Grid.Row="0" Background="#D1C8BF">
             <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="18,0,0,0">
-                <Border Width="21" Height="21" CornerRadius="4" Background="{StaticResource ButtonBrush}"
-                        VerticalAlignment="Center" Margin="0,0,9,0">
-                    <TextBlock Text="F" Foreground="White" FontSize="13" FontWeight="Bold"
-                               HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                </Border>
+                <Image Source="pack://application:,,,/Export_Data_From_Family;component/UI/Wpf/Assets/family-export-symbol.png"
+                       Width="32" Height="32" Stretch="Uniform" VerticalAlignment="Center" Margin="0,0,9,0"/>
                 <TextBlock Text="Family Data Studio" Foreground="{StaticResource Ink}"
                            FontSize="12" FontWeight="SemiBold" VerticalAlignment="Center"/>
             </StackPanel>
@@ -339,12 +337,8 @@
             </Grid.ColumnDefinitions>
             <Border Width="70" Height="70" CornerRadius="12" Background="#D1C8BF"
                     BorderBrush="#C8BCAC" BorderThickness="1" VerticalAlignment="Top">
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <TextBlock Text="▱" FontSize="30" FontWeight="Bold" Foreground="{StaticResource AccentDark}"
-                               HorizontalAlignment="Center" Margin="0,-9,0,-5"/>
-                    <TextBlock Text="FAM" FontSize="17" FontWeight="Bold" Foreground="{StaticResource AccentDark}"
-                               HorizontalAlignment="Center"/>
-                </StackPanel>
+                <Image Source="pack://application:,,,/Export_Data_From_Family;component/UI/Wpf/Assets/family-export-symbol.png"
+                       Stretch="Uniform" Margin="3"/>
             </Border>
             <StackPanel Grid.Column="2" VerticalAlignment="Center">
                 <TextBlock x:Name="StepText" Foreground="{StaticResource AccentDark}" FontSize="11" FontWeight="Bold"/>

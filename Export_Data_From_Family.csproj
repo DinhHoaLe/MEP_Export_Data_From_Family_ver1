@@ -112,6 +112,7 @@
       <SubType>Designer</SubType>
     </Page>
     <Resource Include="UI\Wpf\Assets\family-data-hero.png" />
+    <Resource Include="UI\Wpf\Assets\family-export-symbol.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
